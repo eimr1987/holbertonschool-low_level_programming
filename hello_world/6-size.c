@@ -5,10 +5,11 @@
  * main - imprime varias cosillas
  *
  * Return 0
- *
+ * Test
  */
 int main(void)
 {
+	/*Tipo de datos a declarar*/
 	int a;
 	long int b;
 	long long int c;
