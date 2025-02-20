@@ -2,7 +2,7 @@
 
 
 /**
- * main - mmmm
+ * main - imprime varias cosillas
  *
  * Return 0
  *
