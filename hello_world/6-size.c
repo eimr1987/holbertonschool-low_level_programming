@@ -9,7 +9,11 @@
  */
 int main(void)
 {
-	/*Tipo de datos a declarar*/
+	/**
+	 *Tipo de datos a declarar
+	 *
+	 * Descripcion: Se declara la guerra xD
+	*/
 	int a;
 	long int b;
 	long long int c;
