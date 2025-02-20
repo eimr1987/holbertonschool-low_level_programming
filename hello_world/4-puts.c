@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 /**
  * main - entrada
  *
@@ -7,8 +8,9 @@
  */
 int main(void)
 {
-  puts("Programming is like bulding a multilingual puzzle");
+  puts("Programming is like bulding a multilingual puzzle");//Imprime un mensaje
   return (0);
 }
+
 
        
