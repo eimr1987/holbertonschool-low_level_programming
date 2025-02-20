@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+
+/**
+ * main - mmmm
+ *
+ * Return 0
+ *
+ */
+int main (void)
+{
+	int a;
+	long int b;
+	long long int c;
+	char d;
+	float f;
+
+	printf("test en char: %lu byte(s)\n", (unsigned long)sizeof(d));
+        printf("test en int: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("test en long int: %lu byte(s)\n", (unsigned long)sizeof(b));
+	printf("test en long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("test en float: %lu byte(s)\n", (unsigned long)sizeof(f));
+	return (0);
+}
