@@ -4,8 +4,7 @@
 /**
  * main - imprime varias cosillas
  *
- * Return 0
- * Test
+ * Return: 0
  */
 int main(void)
 {
