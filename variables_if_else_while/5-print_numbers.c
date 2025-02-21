@@ -2,7 +2,6 @@
 
 
 /**
- *
  * main - imprime del 0 al 9 utilizando for
  *
  * Return: 0
