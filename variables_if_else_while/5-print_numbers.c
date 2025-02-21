@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 /**
  *
  * main - imprime del 0 al 9 utilizando for
