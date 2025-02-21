@@ -10,6 +10,7 @@
  */
 int main(void)
 {
+	/*dclaramos la variable bandera*/
 	int i;
 
 	for (i = 0 ; i <= 9 ; i++)
