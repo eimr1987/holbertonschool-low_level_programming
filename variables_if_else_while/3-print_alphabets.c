@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+
+/**
+ * main - imprime de la a a la z en minusculas
+ * posteriormente las imprime en mayusculas
+ * Return: 0
+ *
+ */
+int main(void)
+{
+	char letra_minuscula = 'a', letra_mayuscula = 'A';
+
+	while (letra_minuscula <= 'z')
+	{
+		putchar(letra_minuscula);
+		letra_minuscula++;
+	}
+	while (letra_mayuscula <= 'Z')
+	{
+		putchar(letra_mayuscula);
+		letra_mayuscula++;
+	}
+	putchar('\n');
+	return (0);
+}
