@@ -3,7 +3,6 @@
 
 
 /**
- *
  * main - Programa que imprime _putchar, seguido de una linea
  *
  * Return: 0
