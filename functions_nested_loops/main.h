@@ -4,6 +4,9 @@
  *int prototypes (int)
  *
  */
+#ifndef MAIN_H
+#define MAIN_H
+
 void print_alphabet_x10(void);
 void print_alphabet(void);
 void jack_bauer(void);
@@ -16,3 +19,5 @@ int print_sign(int);
 int _abs(int);
 int print_last_digit(int);
 int add(int, int);
+
+#endif
