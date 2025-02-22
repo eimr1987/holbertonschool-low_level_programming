@@ -2,8 +2,8 @@
 
 
 /**
- * main - programa que imprime mediante funcion
- * el abecedario
+ * print_alphabet - programa que imprime mediante funcion
+ *
  *
  * Return: void
  *
