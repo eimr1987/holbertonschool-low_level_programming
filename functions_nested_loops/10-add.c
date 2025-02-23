@@ -6,6 +6,8 @@
  * @x: valor 1
  * @y: valor 2
  * @z: resultado
+ *
+ * Return: regresa la suma de dos numeros
  */
 int add(int x, int y)
 {
@@ -13,5 +15,5 @@ int add(int x, int y)
 
 	z = x + y;
 
-	return(z);
+	return (z);
 }
