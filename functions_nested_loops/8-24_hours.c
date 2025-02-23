@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
   * jack_bauer - imprimer reloj 24 horas
@@ -19,22 +18,43 @@ void jack_bauer(void)
 			{
 				if (j <= 9)
 				{
-					printf("0%d:0%d\n", i, j);
+					_putchar('0');
+					_putchar(i);
+					_putchar(':');
+					_putchar('0');
+					_putchar(j);
+					_putchar('\n');
+					/*printf("0%d:0%d\n", i, j);*/
 				}
 				else
 				{
-					printf("0%d:%d\n", i, j);
+					_putchar('0');
+					_putchar(i);
+				       	_putchar(':');
+					_putchar(j);
+					_putchar('\n');
+					/*printf("0%d:%d\n", i, j);*/
 				}
 			}
 			else
 			{
 				if (j <= 9)
 				{
-					printf("%d:0%d\n", i, j);
+	                                _putchar('0');
+                                        _putchar(i);
+                                        _putchar(':');
+                                        _putchar('0');
+                                        _putchar(j);
+                                        _putchar('\n');
+					/*printf("%d:0%d\n", i, j);*/
 				}
 				else
 				{
-					printf("%d:%d\n", i, j);
+					_putchar(i);
+					_putchar(':');
+					_putchar(j);
+					_putchar('\n');
+					/*printf("%d:%d\n", i, j);*/
 				}
 			}
 		}
