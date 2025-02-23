@@ -29,9 +29,9 @@ void jack_bauer(void)
 				else
 				{
 					_putchar('0');
-					_putchar(i);
+					_putchar(i + '0');
 				       	_putchar(':');
-					_putchar(j);
+					_putchar(j + '0');
 					_putchar('\n');
 					/*printf("0%d:%d\n", i, j);*/
 				}
@@ -50,9 +50,9 @@ void jack_bauer(void)
 				}
 				else
 				{
-					_putchar(i);
+					_putchar(i + '0');
 					_putchar(':');
-					_putchar(j);
+					_putchar(j + '0');
 					_putchar('\n');
 					/*printf("%d:%d\n", i, j);*/
 				}
