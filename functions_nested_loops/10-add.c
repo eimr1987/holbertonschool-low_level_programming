@@ -9,7 +9,7 @@
  */
 int add(int x, int y)
 {
-	int z, x, y;
+	int z;
 
 	z = x + y;
 
