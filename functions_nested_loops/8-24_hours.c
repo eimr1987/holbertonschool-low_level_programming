@@ -8,15 +8,15 @@
   */
 void jack_bauer(void)
 {
-	int i;
-	int j;
-	for (i = 0; i <= 23; i++)
+	char i;
+	char j;
+	for (i = '0'; i <= '23'; i++)
 	{
-		for (j = 0; j <= 59; j++)
+		for (j = '0'; j <= '59'; j++)
 		{
-			if (i <= 9)
+			if (i <= '9')
 			{
-				if (j <= 9)
+				if (j <= '9')
 				{
 					_putchar('0');
 					_putchar(i);
@@ -38,7 +38,7 @@ void jack_bauer(void)
 			}
 			else
 			{
-				if (j <= 9)
+				if (j <= '9')
 				{
 	                                _putchar('0');
                                         _putchar(i);
