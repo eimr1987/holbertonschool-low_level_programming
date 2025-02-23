@@ -10,7 +10,7 @@
  * Return 0: imprimer 0 si el número es zero
  * Return -1: y el signo - si el numero es menor que zero
  */
-int print_sign(int n)
+int print_sign(int n)/*aqui vamos putines*/
 {
 	if (n > 0) /*si es mayor que cero*/
 	{
