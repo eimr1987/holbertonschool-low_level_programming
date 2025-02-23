@@ -6,7 +6,7 @@
 int main(void)
 {
     int r;
-    r =_islower(108);
-    _putchar('\n');
+
+    r =_islower('o');
     return (0);
 }
