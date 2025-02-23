@@ -12,19 +12,19 @@
  */
 int print_sign(int n)
 {
-	if (n > 0) //si es mayor que cero
+	if (n > 0) /*si es mayor que cero*/
 	{
-		_putchar('+');//colocamos signo
+		_putchar('+');/*colocamos signo*/
 		return (1); /*es positivo*/
 	}
-	else if (n == 0) //si es igual a cero
+	else if (n == 0) /*si es igual a cero*/
 	{
-		_putchar('0'); //imprimos un cero
+		_putchar('0'); /*imprimos un cero*/
 		return (0); /*es igual a cero*/
 	}
-	else //ninguno de los anteriores
+	else /*ninguno de los anteriores*/
 	{
-		_putchar('-');//es negativo
+		_putchar('-');/*es negativo*/
 		return (-1); /*es negativo*/
 	}
 }
