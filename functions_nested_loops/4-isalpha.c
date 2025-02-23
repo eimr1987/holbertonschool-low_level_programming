@@ -2,7 +2,7 @@
 
 
 /**
- * _isalpha - funcion que retorna 1 si es es una letra, min o ma, todo es felici
+ * _isalpha - funcion que retorna 1 si es es una letra, min o ma.
  *@c: identificador
  *
  * Return: 1 o 0
