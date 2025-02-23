@@ -7,8 +7,6 @@
  * @n - caracter del mal
  *
  * Return: 1 y el signo + si el numero es mayor que zero
- * Return: 0 imprimer 0 si el número es zero
- * Return: -1 y el signo - si el numero es menor que zero
  */
 int print_sign(int n)/*aqui vamos putines*/
 {
