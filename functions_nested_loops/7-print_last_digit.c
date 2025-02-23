@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * print_last_digit(int) - imprimir el últino digito de un número
- *
- * @n: jijiji
+ * print_last_digit - imprimir el últino digito de un número
+ * @n: numero a validar
  *
  * Return: ultimo digito
  *
