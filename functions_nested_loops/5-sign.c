@@ -12,6 +12,7 @@
  */
 int print_sign(int n)/*aqui vamos putines*/
 {
+	/*adsfdgdgdgdgdgdgdg gdgdgdgdgd*/
 	if (n > 0) /*si es mayor que cero*/
 	{
 		_putchar('+');/*colocamos signo*/
