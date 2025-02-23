@@ -4,7 +4,7 @@
 /**
  * print_sign - Imprimer el signo de un numero
  *
- * n - caracter del mal
+ * n: caracter del mal
  *
  * Return: 1 y el signo + si el numero es mayor que zero
  */
