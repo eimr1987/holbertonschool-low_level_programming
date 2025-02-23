@@ -12,20 +12,20 @@
  */
 int print_sign(int n)
 {
-
+	/*validamos el número*/
 	if (n > 0)
 	{
 		_putchar('+');
-		return (1);
+		return (1); /*es positivo*/
 	}
 	else if (n == 0)
 	{
 		_putchar('0');
-		return (0);
+		return (0); /*es igual a cero*/
 	}
 	else
 	{
 		_putchar('-');
-		return (-1);
+		return (-1); /*es negativo*/
 	}
 }
