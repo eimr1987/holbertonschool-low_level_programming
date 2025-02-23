@@ -2,7 +2,7 @@
 
 
 /**
- * print_sign - Imprimer el signo de un numero
+ * _print_sign - Imprimer el signo de un numero
  *
  * @c - caracter del mal
  *
