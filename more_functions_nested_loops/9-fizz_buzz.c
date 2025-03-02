@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * fizzBuzzTest - programa que imprime cosas enviadas del mal
