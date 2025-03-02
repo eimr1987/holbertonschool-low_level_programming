@@ -8,13 +8,10 @@
  */
 void fizzBuzzTest(void)
 {
-	int i, multiple;
+	int i;
 
 	for (i = 1; i <= 100; i++)
 	{
-		multiple3 = i mod 3;
-		multiple5 = i mod 5;
-
 		if ((i mod 3)  == 0)
 		{
 			printf("Fizz ");
