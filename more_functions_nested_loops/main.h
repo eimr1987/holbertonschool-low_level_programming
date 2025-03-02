@@ -1,5 +1,3 @@
-#ifndef MAIN_H
-
 /**
  * main - Header de los ejercicios
  * void
@@ -17,5 +15,3 @@ int _isupper(int);
 int _isdigit(int);
 int mul(int, int);
 int _putchar(char);
-
-#endif
