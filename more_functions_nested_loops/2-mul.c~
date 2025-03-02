@@ -1,0 +1,14 @@
+#include "main.h"
+
+/**
+ * mul - funcion que multiplica dos valores
+ * Return: numero entero con el resultado del producto
+ */
+int mul(int a, int b)
+{
+	/*Se declaran las variables a utilizar*/
+	int a, b;
+
+	/*regresamos el regultado*/
+	return (a * b);
+}
