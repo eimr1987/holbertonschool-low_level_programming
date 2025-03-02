@@ -1,0 +1,30 @@
+#include "main.h"
+
+/**
+ * fizzBuzzTest - programa que imprime cosas enviadas del mal
+ *
+ * Return: cero
+ *
+ */
+void fizzBuzzTest(void)
+{
+	int i, multiple;
+
+	for (i = 0; i <= 100; i++)
+	{
+		multiple3 = i % 3;
+		miltiple5 = i % 5;
+		if (multiple3 == 0)
+		{
+			printf("Fizz ");
+		}
+		if (multiple5 == 0)
+		{
+			printf("Buzz ");
+		}
+		if (multiple3 == 0 && multiple5 == 0)
+		{
+			printf ("FizzBuzz ");
+		}
+	}
+}
