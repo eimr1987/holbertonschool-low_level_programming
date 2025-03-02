@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * fizzBuzzTest - programa que imprime cosas enviadas del mal
+ * main - programa que imprime cosas enviadas del mal
  *
  * Return: cero
  *
  */
-void fizzBuzzTest(void)
+int main(void)
 {
 	int i;
 
@@ -26,8 +26,11 @@ void fizzBuzzTest(void)
 			printf("FizzBuzz ");
 		}
 		else
+		{
 			printf("%d ", i);
+		}
 	}
 	printf("\n");
+
 	return (0);
 }
