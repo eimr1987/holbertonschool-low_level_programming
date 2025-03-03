@@ -15,7 +15,7 @@ void rev_string(char *s)
 		longitud_cadena++;
 	}
 
-	for (i = longitud_cadena - 1; i >= longitud_cadena / 2; i++)
+	for (i = longitud_cadena - 1; i >= longitud_cadena / 2; i--)
 	{
 		tmp = s[i];
 		s[i] = s[longitud_cadena - i - 1];
