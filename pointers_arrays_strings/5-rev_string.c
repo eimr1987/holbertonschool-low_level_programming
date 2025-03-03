@@ -13,8 +13,13 @@ void rev_string(char *s)
 	{
 		longitud_cadena++;
 	}
-	for (i = longitud_cadena - 1; i >= 0; i--)
+
+	char tmp;
+
+	for (i = longitud_cadena - 1; i >= longitd_cadena / 2; i--)
 	{
-		_putchar(s[i]);
+		tmp = s[i];
+		s[i] = s[longitud_cadena - i - 1];
+		s[longitud_cadena - 1] = tmp;
 	}
 }
