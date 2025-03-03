@@ -15,7 +15,7 @@ char *_strcat(char *dest, char *src)
 	{
 		recorrido_en_dest++;
 	}
-	for (j = 0; scr[j] != '\0'; j++)
+	for (j = 0; src[j] != '\0'; j++)
 	{
 		dest[recorrido_en_dest] = src[j];
 		recorrido_en_dest++;
