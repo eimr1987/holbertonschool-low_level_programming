@@ -13,7 +13,7 @@ void puts_half(char *str)
 	{
 		longitud_cadena++;
 	}
-	n = longitud_cadena / 2;
+	n = (longitud_cadena + 1) / 2;
 
 	for (i = n; i < longitud_cadena; i++)
 	{
