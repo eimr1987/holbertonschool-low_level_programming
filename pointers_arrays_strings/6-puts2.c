@@ -8,7 +8,6 @@
 void puts2(char *str)
 {
 	int i, longitud_cadena = 0;
-	char tmp;
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
