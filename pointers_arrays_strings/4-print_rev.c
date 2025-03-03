@@ -13,7 +13,7 @@ void print_rev(char *s)
 	{
 		longitud_cadena++;
 	}
-	for (i = longitud_cadena; i >= 0; i--)
+	for (i = longitud_cadena; i > 0; i--)
 	{
 		_putchar(s[i]);
 	}
