@@ -8,21 +8,16 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int i, j;
-	int recorrido_en_dest = 0;
+	int i = 0;
+	int longitud_dest = 0;
 
-	for (i = 0; dest[i] != '\0'; i++)
+	while (dest[i++])
 	{
-		recorrido_en_dest++;
+		longitud_dest++;
 	}
-	recorrido_en_dest++;
-	for (j = 0; src[j] != '\0'; j++)
+	for (i = 0; src[i]; i++)
 	{
-		dest[recorrido_en_dest] = src[j];
-		recorrido_en_dest++;
-		j++;
+		dest[longitud_dest++] = src[i];
 	}
-	dest[recorrido_en_dest] = '\0';
-
 	return (dest);
 }
