@@ -16,7 +16,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		longitud_dest++;
 	}
-	for (i = 0; src[i] && index < n; i++)
+	for (i = 0; src[i] && i < n; i++)
 	{
 		dest[longitud_dest++] = src[i];
 	}
