@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_rev - Imprime una adena en reversa
+ * rev_string - Imprime un string en reversa
  * @s: validacion
  * Return: cero
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int i, longitud_cadena = 0;
 
@@ -17,5 +17,4 @@ void print_rev(char *s)
 	{
 		_putchar(s[i]);
 	}
-	_putchar('\n');
 }
