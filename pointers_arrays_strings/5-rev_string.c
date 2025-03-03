@@ -9,7 +9,7 @@ void rev_string(char *s)
 {
 	int i, longitud_cadena = 0;
 	char tmp;
-	
+
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		longitud_cadena++;
